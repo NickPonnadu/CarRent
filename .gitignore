@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/source/obj
+/source/.vs/CarRent/config
+/source/.vs/CarRent
+/source/src/CarRent/bin/Debug/net7.0
+/source/src/CarRent.Tests/obj
+/source/src/CarRent/obj
