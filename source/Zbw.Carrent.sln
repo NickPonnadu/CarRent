@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbw.Carrent", "src\Zbw.Carrent\Zbw.Carrent.csproj", "{1F3C128B-BF43-4336-9744-D31AA3913EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zbw.Carrent", "src\Zbw.Carrent\Zbw.Carrent.csproj", "{1F3C128B-BF43-4336-9744-D31AA3913EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbw.Carrent.Tests", "tests\Zbw.Carrent.Tests\Zbw.Carrent.Tests.csproj", "{1693BAB2-8655-437C-92A3-9C2ED99CC917}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zbw.Carrent.Tests", "tests\Zbw.Carrent.Tests\Zbw.Carrent.Tests.csproj", "{1693BAB2-8655-437C-92A3-9C2ED99CC917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
