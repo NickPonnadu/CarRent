@@ -14,7 +14,7 @@ namespace CarRent.Customer.Api
         {
             var customers = new List<CustomerResponse>
             {
-                new CustomerResponse { Id = Guid.NewGuid(), Name = "Nick", CustomerNr = 01, Address = "Test 1" }
+                new() { Id = Guid.NewGuid(), Name = "Nick", CustomerNr = 01, Address = "Test 1" }
             };
             return customers;
         }
