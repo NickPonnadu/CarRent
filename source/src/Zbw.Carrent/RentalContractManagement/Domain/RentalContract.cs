@@ -1,4 +1,6 @@
-﻿namespace Zbw.Carrent.RentalContractManagement.Domain
+﻿using Zbw.Carrent.ReservationManagement.Domain;
+
+namespace Zbw.Carrent.RentalContractManagement.Domain
 {
     public class RentalContract : IRentalContract
     {
@@ -8,6 +10,7 @@
         public DateTime ReturnDate { get; set; }
         public decimal TotalCost { get; set; }
 
+        public Reservation Reservation { get; set; }
         // Konstruktor und weitere Methoden, falls erforderlich
     }
 }
